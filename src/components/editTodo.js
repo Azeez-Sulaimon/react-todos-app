@@ -85,7 +85,7 @@ export default class EditTodo extends Component {
                                 className="form-control"
                                 value={this.state.todo_description}
                                 onChange={this.onChangeTodoDescription}
-                                />
+                                required/>
                     </div>
                     <div className="form-group">
                         <label>Responsible: </label>
@@ -94,6 +94,7 @@ export default class EditTodo extends Component {
                                 className="form-control"
                                 value={this.state.todo_responsible}
                                 onChange={this.onChangeTodoResponsible}
+                                required
                                 />
                     </div>
                     <div className="form-group">

@@ -74,6 +74,7 @@ export default class CreateTodo extends Component {
                                 className="form-control"
                                 value={this.state.todo_description}
                                 onChange={this.onChangeTodoDescription}
+                                required
                                 />
                     </div>
                     <div className="form-group">
@@ -83,6 +84,7 @@ export default class CreateTodo extends Component {
                                 className="form-control"
                                 value={this.state.todo_responsible}
                                 onChange={this.onChangeTodoResponsible}
+                                required
                                 />
                     </div>
                     <div className="form-group">
